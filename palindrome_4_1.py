@@ -1,5 +1,2 @@
 def palindrome(line):
-    if line == line[::-1]:
-        return True
-    else:
-        return False
+    return line == line[::-1]
